@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "tickers")
+@Table(name = "cryptocurrencies")
 public class Cryptocurrency {
 
     @Id
