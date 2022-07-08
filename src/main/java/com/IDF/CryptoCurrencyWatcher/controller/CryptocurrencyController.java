@@ -35,7 +35,4 @@ public class CryptocurrencyController {
         subscriptionService.save(new Subscription(username, found.getPrice(), found));
         return ResponseEntity.ok("Subscription submitted");
     }
-
-
-
 }
